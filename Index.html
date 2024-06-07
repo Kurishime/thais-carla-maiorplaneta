@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel S15</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="login-container">
+    <h2>Login</h2>
+    <form id="loginForm">
+        <label for="username">Usuário:</label>
+        <input type="text" id="username" name="username" placeholder="Digite seu usuário" required value="Ragna">
+
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" placeholder="Digite sua senha" required value="8207">
+
+        <input type="submit" value="Login">
+    </form>
+</div>
+
+<!-- Tela após o login -->
+<div class="after-login" id="afterLogin">
+    <div class="after-login-content">
+        <h2>𝐏𝐚𝐢𝐧𝐞𝐥 𝐇𝐞𝐚𝐝𝐭𝐫𝐢𝐤𝐢𝐧𝐠 </h2>
+        <div class="option">
+            <label for="aimlock">𝐀𝐢𝐦 𝐋𝐨𝐜𝐤</label>
+            <input type="checkbox" id="aimlock">
+        </div>
+        <div class="option">
+            <label for="aimlock">𝐀𝐢𝐦 𝐅𝐨𝐯</label>
+            <input type="checkbox" id="aimfov">
+        </div>
+        <div class="option">
+            <label for="headtrick">𝐇𝐞𝐚𝐝𝐓𝐫𝐢𝐜𝐤</label>
+            <input type="checkbox" id="headtrick">
+        </div>
+        <div class="option">
+            <label for="aux">𝐀𝐮𝐱</label>
+            <input type="checkbox" id="aux">
+        </div>
+        <div class="account-info">
+            <p>𝐂𝐫𝐞𝐚𝐭𝐨𝐫: <span>+55 16 99627-7406</span></p>
+            <p>𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: <span>@𝒓𝒂𝒈𝒏𝒂𝒄𝒓𝒔𝒎</span></p>
+        </div>
+        <div class="autoram-button">
+            <button onclick="autoram()">𝐀𝐮𝐭𝐨 𝐑𝐚𝐦</button>
+        </div>
+    </div>
+</div>
+
+<script src="scripts.js"></script>
+
+</body>
+</html>
